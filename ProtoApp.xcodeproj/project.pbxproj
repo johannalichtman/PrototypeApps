@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		1811C1C41AA3C7FA00DE45DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1C31AA3C7FA00DE45DC /* AppDelegate.swift */; };
 		1811C1C61AA3C7FA00DE45DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1C51AA3C7FA00DE45DC /* ViewController.swift */; };
-		1811C1C91AA3C7FA00DE45DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1C71AA3C7FA00DE45DC /* Main.storyboard */; };
 		1811C1CB1AA3C7FA00DE45DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1CA1AA3C7FA00DE45DC /* Images.xcassets */; };
 		1811C1CE1AA3C7FA00DE45DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1CC1AA3C7FA00DE45DC /* LaunchScreen.xib */; };
 		1811C1DA1AA3C7FA00DE45DC /* ProtoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1D91AA3C7FA00DE45DC /* ProtoAppTests.swift */; };
+		1811C1E51AA3CA8B00DE45DC /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1E31AA3CA8B00DE45DC /* ProductViewController.swift */; };
+		1811C1E61AA3CA8B00DE45DC /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1E41AA3CA8B00DE45DC /* ProductViewController.xib */; };
+		1811C1E91AA3CAA600DE45DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1E71AA3CAA600DE45DC /* ProfileViewController.swift */; };
+		1811C1EA1AA3CAA600DE45DC /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1E81AA3CAA600DE45DC /* ProfileViewController.xib */; };
+		1811C1ED1AA3CABB00DE45DC /* TBDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1EB1AA3CABB00DE45DC /* TBDViewController.swift */; };
+		1811C1EE1AA3CABB00DE45DC /* TBDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1EC1AA3CABB00DE45DC /* TBDViewController.xib */; };
+		1811C1F11AA3DB3200DE45DC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811C1EF1AA3DB3200DE45DC /* RegistrationViewController.swift */; };
+		1811C1F21AA3DB3200DE45DC /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811C1F01AA3DB3200DE45DC /* RegistrationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +37,19 @@
 		1811C1C21AA3C7FA00DE45DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1811C1C31AA3C7FA00DE45DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1811C1C51AA3C7FA00DE45DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1811C1C81AA3C7FA00DE45DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1811C1CA1AA3C7FA00DE45DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1811C1CD1AA3C7FA00DE45DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1811C1D31AA3C7FA00DE45DC /* ProtoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1811C1D81AA3C7FA00DE45DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1811C1D91AA3C7FA00DE45DC /* ProtoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoAppTests.swift; sourceTree = "<group>"; };
+		1811C1E31AA3CA8B00DE45DC /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		1811C1E41AA3CA8B00DE45DC /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		1811C1E71AA3CAA600DE45DC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1811C1E81AA3CAA600DE45DC /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		1811C1EB1AA3CABB00DE45DC /* TBDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBDViewController.swift; sourceTree = "<group>"; };
+		1811C1EC1AA3CABB00DE45DC /* TBDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBDViewController.xib; sourceTree = "<group>"; };
+		1811C1EF1AA3DB3200DE45DC /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		1811C1F01AA3DB3200DE45DC /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +92,15 @@
 			isa = PBXGroup;
 			children = (
 				1811C1C31AA3C7FA00DE45DC /* AppDelegate.swift */,
+				1811C1EF1AA3DB3200DE45DC /* RegistrationViewController.swift */,
+				1811C1F01AA3DB3200DE45DC /* RegistrationViewController.xib */,
+				1811C1EB1AA3CABB00DE45DC /* TBDViewController.swift */,
+				1811C1EC1AA3CABB00DE45DC /* TBDViewController.xib */,
+				1811C1E71AA3CAA600DE45DC /* ProfileViewController.swift */,
+				1811C1E81AA3CAA600DE45DC /* ProfileViewController.xib */,
+				1811C1E31AA3CA8B00DE45DC /* ProductViewController.swift */,
+				1811C1E41AA3CA8B00DE45DC /* ProductViewController.xib */,
 				1811C1C51AA3C7FA00DE45DC /* ViewController.swift */,
-				1811C1C71AA3C7FA00DE45DC /* Main.storyboard */,
 				1811C1CA1AA3C7FA00DE45DC /* Images.xcassets */,
 				1811C1CC1AA3C7FA00DE45DC /* LaunchScreen.xib */,
 				1811C1C11AA3C7FA00DE45DC /* Supporting Files */,
@@ -192,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1811C1C91AA3C7FA00DE45DC /* Main.storyboard in Resources */,
 				1811C1CE1AA3C7FA00DE45DC /* LaunchScreen.xib in Resources */,
+				1811C1E61AA3CA8B00DE45DC /* ProductViewController.xib in Resources */,
+				1811C1EA1AA3CAA600DE45DC /* ProfileViewController.xib in Resources */,
+				1811C1F21AA3DB3200DE45DC /* RegistrationViewController.xib in Resources */,
 				1811C1CB1AA3C7FA00DE45DC /* Images.xcassets in Resources */,
+				1811C1EE1AA3CABB00DE45DC /* TBDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1811C1F11AA3DB3200DE45DC /* RegistrationViewController.swift in Sources */,
+				1811C1ED1AA3CABB00DE45DC /* TBDViewController.swift in Sources */,
+				1811C1E51AA3CA8B00DE45DC /* ProductViewController.swift in Sources */,
 				1811C1C61AA3C7FA00DE45DC /* ViewController.swift in Sources */,
+				1811C1E91AA3CAA600DE45DC /* ProfileViewController.swift in Sources */,
 				1811C1C41AA3C7FA00DE45DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1811C1C71AA3C7FA00DE45DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1811C1C81AA3C7FA00DE45DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1811C1CC1AA3C7FA00DE45DC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
